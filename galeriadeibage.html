@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Galeria maligna de imagem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="ibagemestilosa.css">
+</head>
+<body>
+    <div class="product">
+        <div class="product-small-img">
+            <img src="C:\Users\fake2\Downloads\ryan_gosling_transparent_png_by_blutmondlicht_d9kt2v5-fullview.png" onclick="myFunction(this)">
+            <img src="C:\Users\fake2\Downloads\Ryan-Gosling-PNG-Free-Image.png" onclick="myFunction(this)">
+            <img src="C:\Users\fake2\Downloads\d4ng881-0f1d3dbe-570b-424a-9a68-219da7aa5f52.png" onclick="myFunction(this)">
+            <img src="C:\Users\fake2\Downloads\png_barbie_the_movie_ryan_gosling_by_yourprincessofstory_dg5h6dm-fullview.png" onclick="myFunction(this)">
+            <img src="C:\Users\fake2\Downloads\Ryan-Gosling-PNG-Pic.png" onclick="myFunction(this)">
+        </div>
+        <div class="img-container">
+            <img id="imageBox" src="C:\Users\fake2\Downloads\ryan_gosling_transparent_png_by_blutmondlicht_d9kt2v5-fullview.png">
+        </div>
+    </div>
+
+    <script>
+        function myFunction(smallImg)
+        {
+            var fullImg = document.getElementById("imageBox")
+            fullImg.src = smallImg.src;
+        }
+        
+        
+    </script>
+    
+
+
+</body>
+</html>
+
